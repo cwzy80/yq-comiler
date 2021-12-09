@@ -208,8 +208,7 @@ function getCharCode(ch: string): number {
 }
 
 function main() {
-	const code = "(推广花费占比>=0.15 and 销售额>20000) or 净利润>9000"
-	// const code = '21+300*50000'
+	const code = '21+300*50000'
 	tokenize(code)
 	// tokens.map((token) => {
 	// 	console.log(`${token.type} ${token.text}`)

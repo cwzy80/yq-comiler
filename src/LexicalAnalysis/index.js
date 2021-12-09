@@ -214,8 +214,7 @@ function getCharCode(ch) {
     return ch.charCodeAt(0);
 }
 function main() {
-    var code = "(推广花费占比>=0.15 and 销售额>20000) or 净利润>9000";
-    // const code = '21+300*50000'
+    var code = '21+300*50000';
     tokenize(code);
     // tokens.map((token) => {
     // 	console.log(`${token.type} ${token.text}`)
